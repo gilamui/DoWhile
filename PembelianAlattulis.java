@@ -36,7 +36,6 @@ public class PembelianAlattulis {
         temporary+=total;
         System.out.println("Apakah ingin membeli lagi?\n(y/n)");
         ulang = s.next();
-        s.close();
 
         } while (ulang.equalsIgnoreCase("y"));
         System.out.println("Total yang dibayarkan "+temporary);
